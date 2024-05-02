@@ -1,0 +1,18 @@
+workspace = { members = ["members/ch1-tests"] }
+[package]
+name = "ch01"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+av = "0.1.0"
+clap = "4.5.4"
+glium = "0.34.0"
+gtk = "0.18.1"
+postgres = "0.19.7"
+pyo3 = "0.21.2"
+reqwest = "0.12.4"
+serde = "1.0.200"
+tokio = "1.37.0"
