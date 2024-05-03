@@ -1,4 +1,4 @@
-workspace = { members = [ "members/implementing-concurrency","members/pattern_matching01", "members/tokio-example"] }
+workspace = { members = [ "members/implementing-concurrency","members/pattern_matching01", "members/tokio-example", "members/using-raw-pointers"] }
 [package]
 name = "ch03"
 version = "0.1.0"
