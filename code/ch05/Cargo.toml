@@ -1,0 +1,9 @@
+workspace = { members = [ "members/concurrent-hashmap", "members/concurrent-hashmap-rayon", "members/deadlock-example", "members/livelock-example", "members/parallel_algorithms/algorithm-testing", "members/parallel_algorithms/rayon-sum-of-squares", "members/parallel_algorithms/std_thead", "members/parallel_algorithms/use_rayon", "members/parallel_algorithms/use_rayon_join", "members/shared-variable-01", "members/shared-variable-02", "members/shared-variable-03","members/thead-safe-queue-01"] }
+[package]
+name = "ch05"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
