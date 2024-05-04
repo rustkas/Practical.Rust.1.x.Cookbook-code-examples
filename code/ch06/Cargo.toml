@@ -1,0 +1,10 @@
+workspace = { members = [ "members/async-io", "members/async-networking-async_std", "members/async-networking-tokio", "members/async-task-integration-futures", "members/async-task-integration-tokio","members/result-type-01", "members/spsp-chanel", "members/woking-with-channels"] }
+[package]
+name = "ch06"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.37.0", features = ["full"] }
